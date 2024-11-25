@@ -1,0 +1,81 @@
+*{
+    margin: 0 auto;
+    padding: 0px;
+}
+
+header{
+    background-image: url(../imagem/a.jpg);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    display: flex;
+    justify-content: end;
+    padding: 80px 40px;
+
+
+}
+
+article.col-md-6 {
+    gap: 5px;
+}
+
+label.form-label {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+#receitas{
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.021);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    padding: 10px;
+    color: white;
+}
+
+section#box {
+    display: flex;
+    justify-content: center;
+    width: 68%;
+    padding: 31px;
+}
+
+span#comida {
+    padding: 26px;
+    font-size: 33px;
+    font-family: fantasy;
+}
+
+aside {
+    background: #ffc94c;
+}
+
+.alert.alert-success {
+    width: 50%;
+}
+
+button.btn.btn-success {
+    margin-left: 96px;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+section.boxForm {
+    background: black;
+    color: white;
+    height: 156vh;
+}
+
+p#fromText {
+    color: #ffc94c;
+    font-size: 23px;
+    padding: 30px 0px 30px 0px;
+    font-family: fantasy;
+    width: 62%;
+}
