@@ -7,7 +7,7 @@ CREATE TABLE receitas (
     idReceitas INT PRIMARY KEY AUTO_INCREMENT,
     idCategorias INT,
     titulo VARCHAR(40),
-    ingredientes varchar(100),
+    ingredientes varchar(200),
     tempo_preparo VARCHAR(30),
     FOREIGN KEY (idCategorias) REFERENCES categorias(idCategorias)
 );
