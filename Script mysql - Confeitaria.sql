@@ -13,4 +13,4 @@ CREATE TABLE receitas (
 );
 
 INSERT INTO categorias (tipoCategorias)
-VALUES('Saladas'),('Sopas'),('Refogados'),('Purês'),('Sobremesas'),('Bolos'),('Tortas'),('Pudins'),('Doces'),('Sorvetes'),('Pães'),('Biscoitos'),('Muffins'),('Torradas'),('Caldos'),('Cremes');
+VALUES('Saladas'),('Sopas'),('Refogados'),('Purês'),('Sobremesas'),('Bolos'),('Tortas'),('Pudins'),('Doces'),('Sorvetes'),('Pães'),('Biscoitos'),('Muffins'),('Torradas'),('Caldos'),('Cremes'),('Massa');
