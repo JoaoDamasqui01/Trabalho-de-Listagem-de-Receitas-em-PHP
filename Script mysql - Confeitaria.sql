@@ -8,7 +8,7 @@ CREATE TABLE receitas (
     idCategorias INT,
     titulo VARCHAR(40),
     ingredientes varchar(200),
-    tempo_preparo VARCHAR(30),
+    tempoPreparo VARCHAR(30),
     FOREIGN KEY (idCategorias) REFERENCES categorias(idCategorias)
 );
 
