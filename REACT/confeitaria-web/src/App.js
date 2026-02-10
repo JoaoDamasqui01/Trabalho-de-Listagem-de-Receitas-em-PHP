@@ -151,8 +151,8 @@ function App() {
                   <option value="">Selecione uma categoria</option>
                   {categorias.map(cat => (
                     <option
-                      key={cat.idCategorias}
-                      value={cat.idCategorias}
+                      key={cat.id}
+                      value={cat.id}
                     >
                       {cat.tipoCategorias}
                     </option>
