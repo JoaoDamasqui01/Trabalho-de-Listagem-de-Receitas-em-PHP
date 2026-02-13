@@ -18,7 +18,7 @@ function App() {
 
   const buscarCategorias = async () => {
     try {
-      console.log('🔍 Buscando categorias...');
+      console.log('🔍 Buscando categorias...')
       setLoading(true);
 
       const dados = await listarCategorias();
